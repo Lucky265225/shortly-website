@@ -8,11 +8,13 @@ import Shorten from './components/Shorten.vue';
 </script>
 
 <template>
-  <Navbar/>
-  <Hero/>
-  <Shorten/>
-  <CTA/>
-  <Footer/>
+  <div class="h-screen ">
+      <Navbar />
+      <Hero />
+      <Shorten />
+      <CTA />
+      <Footer />
+  </div>
 </template>
 
 <style scoped></style>
