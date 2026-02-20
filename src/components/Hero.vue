@@ -3,9 +3,11 @@
 
 <template>
 
-    <div class="lg:w-[80%] m-auto flex justify-between mt-10">
+    <div class="lg:w-[80%] m-auto flex lg:flex-row justify-between mt-10
+    w-[90%] flex-col-reverse items-center">
         <!-- flex container for all item -->
-        <div class="flex flex-col justify-center items-start gap-5 w-[30%]">
+        <div class="lg:flex flex-col justify-center lg:items-start lg:text-left gap-5 lg:w-[30%] 
+        w-full items-center text-center">
             <!-- box content -->
             <h1 class="font-bold text-5xl">
                 Turn every link into a brand touchpoint
